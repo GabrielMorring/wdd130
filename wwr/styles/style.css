@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Merriweather:wght@300&display=swap');
+
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 nav a {
+    text-decoration: none;
+    color: white;
     text-align: center;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -25,6 +36,14 @@ main section {
 
 body {
     background-color: #494949;
+    font-family: "Merriweather";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -32,7 +51,7 @@ header {
 }
 
 nav a:hover {
-    background-color: #2F6A55;
+    background-color: #20A4F3;
     color: white;
 }
 
@@ -40,10 +59,26 @@ nav a:hover {
     background-color: #494949;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #2F6A55;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 .book:hover, .join:hover {
-    background-color: #2F6A55;
+    background-color: #20A4F3;
     color: white;
 }
 
@@ -53,19 +88,22 @@ nav a:hover {
 
 .msg {
     background-color: #494949;
+    font-family: "Fredericka the Great";
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #494949;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
     color: white;
+    font-family: "Fredericka the Great";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -78,6 +116,8 @@ h4 {
 
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer h3 {
@@ -97,12 +137,17 @@ footer a:hover {
     color: white;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .logo {
     width: 80px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {

@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+    /* margin: 0 50px; */
+}
+
+div {
+    text-align: center;
+   
+}
+
+#top {
+    background-color: red;
+    padding: 30px;
+    margin: 0 30%;
+
+}
+
+#middle {
+    background-color: blue;
+    padding: 70px;
+    margin: 0 20%;
+}
+
+#bottum {
+    background-color: green;
+    padding: 100px;
+    margin: 0 10%;
+}
+
+.boxes {
+    margin: 100px;
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#box1 {
+    background-color: rgb(0, 255, 255);
+    float: left;
+}
+
+#box2 {
+    background-color: rgb(199, 30, 199);
+    float: right;
+}
